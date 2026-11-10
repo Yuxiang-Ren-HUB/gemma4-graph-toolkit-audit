@@ -1,0 +1,7125 @@
+{
+ "summary": {
+  "n_tasks_audited": 129,
+  "n_tasks_with_gold_syms": 121,
+  "n_tasks_gold_in_graph_qual": 115,
+  "nl_full_nonempty_tasks": 129,
+  "nl_line_nonempty_tasks": 127,
+  "snippet_nonempty_tasks": 124,
+  "keywords_nonempty_tasks": 129,
+  "shim_nonempty_tasks": 118,
+  "loc_keywords_resolve": 7,
+  "loc_keywords_topk": 36,
+  "loc_shim_resolve": 31,
+  "loc_shim_topk": 41,
+  "loc_shim_resolve_or_topk": 54,
+  "loc_neighbors_hit": 15,
+  "loc_oracle_resolve": 115,
+  "oracle_nonempty_tasks": 115,
+  "edge_filter_nodes_probed": 645,
+  "edge_filter_neighbor_totals": {
+   "none": 1866,
+   "calls": 1866,
+   "CALLS": 1866,
+   "DEFINED_IN": 0,
+   "IMPORTS": 0
+  }
+ },
+ "tasks": [
+  {
+   "instance_id": "fastapi_15661",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 0,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15588",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15589",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15030",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 5,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 64,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14962",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 4,
+   "n_gold_nodes_qual": 10,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 10,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15280",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 2,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14964",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 5,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15023",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 4,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14986",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14978",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 9,
+   "n_gold_nodes_qual": 8,
+   "n_gold_nodes_bare_extra": 68,
+   "gold_in_graph": true,
+   "gold_emb_present": 8,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "requests_7505",
+   "repo": "psf/requests",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "requests_7502",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_7433",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_7427",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_7315",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 7,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 7,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_7328",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_7309",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_7205",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_4070",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 17,
+   "n_gold_nodes_qual": 16,
+   "n_gold_nodes_bare_extra": 127,
+   "gold_in_graph": true,
+   "gold_emb_present": 16,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 13,
+     "n_resolved": 9,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_4077",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 3,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_4079",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 3,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_4076",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_4075",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 2,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_4006",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14258",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14851",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 66,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14873",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 68,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 12,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 12,
+     "n_nonempty": 11,
+     "n_resolved": 7,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_13920",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14794",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 7,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 7,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14786",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 14,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 14,
+     "n_nonempty": 13,
+     "n_resolved": 7,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14492",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 0,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14479",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 13,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14463",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 15,
+     "n_resolved": 9,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_12942",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 9,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14099",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 4,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14609",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 140,
+   "n_gold_nodes_qual": 170,
+   "n_gold_nodes_bare_extra": 69,
+   "gold_in_graph": true,
+   "gold_emb_present": 170,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14372",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 5,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14349",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14512",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14487",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_11355",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14485",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14482",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 6,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 6,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14306",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 10,
+   "n_gold_nodes_qual": 7,
+   "n_gold_nodes_bare_extra": 76,
+   "gold_in_graph": true,
+   "gold_emb_present": 7,
+   "n_identifiers": 14,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 14,
+     "n_nonempty": 13,
+     "n_resolved": 8,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14458",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 7,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 7,
+     "n_nonempty": 7,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14459",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 6,
+   "n_gold_nodes_qual": 6,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 6,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14448",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 6,
+   "n_gold_nodes_qual": 5,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 5,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14455",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_9753",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 7,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 7,
+     "n_nonempty": 6,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14430",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_5077",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 11,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_9555",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 10,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14361",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_13207",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 7,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 7,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14360",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 5,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14356",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 13,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 13,
+     "n_nonempty": 12,
+     "n_resolved": 6,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_5624",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14419",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 5,
+   "n_gold_nodes_qual": 4,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 4,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 4,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14301",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14262",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 16,
+   "n_gold_nodes_qual": 13,
+   "n_gold_nodes_bare_extra": 70,
+   "gold_in_graph": true,
+   "gold_emb_present": 13,
+   "n_identifiers": 11,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 11,
+     "n_nonempty": 10,
+     "n_resolved": 10,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14266",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14246",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 4,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 4,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 4,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14186",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 30,
+   "n_gold_nodes_qual": 58,
+   "n_gold_nodes_bare_extra": 2,
+   "gold_in_graph": true,
+   "gold_emb_present": 58,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_9425",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_13713",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 60,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14077",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 3,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3718",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 44,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3934",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 3,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3953",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3944",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3942",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 4,
+   "n_gold_nodes_qual": 4,
+   "n_gold_nodes_bare_extra": 42,
+   "gold_in_graph": true,
+   "gold_emb_present": 4,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 4,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3938",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 2,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3882",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 6,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 6,
+     "n_nonempty": 6,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3894",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 14,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3935",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 5,
+   "n_gold_nodes_qual": 5,
+   "n_gold_nodes_bare_extra": 45,
+   "gold_in_graph": true,
+   "gold_emb_present": 5,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3905",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 3,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 8,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 8,
+     "n_nonempty": 8,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3930",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 5,
+   "n_gold_nodes_qual": 6,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 6,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "httpx_3672",
+   "repo": "encode/httpx",
+   "n_gold_syms": 18,
+   "n_gold_nodes_qual": 14,
+   "n_gold_nodes_bare_extra": 111,
+   "gold_in_graph": true,
+   "gold_emb_present": 14,
+   "n_identifiers": 5,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14791",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 0,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 6,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 6,
+     "n_nonempty": 6,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15800",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 7,
+   "n_gold_nodes_qual": 6,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": true,
+   "gold_emb_present": 6,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15785",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 4,
+   "n_gold_nodes_qual": 4,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 4,
+   "n_identifiers": 5,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 4,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14371",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 10,
+   "n_gold_nodes_qual": 14,
+   "n_gold_nodes_bare_extra": 77,
+   "gold_in_graph": true,
+   "gold_emb_present": 14,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 3,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14605",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 9,
+   "n_gold_nodes_qual": 9,
+   "n_gold_nodes_bare_extra": 69,
+   "gold_in_graph": true,
+   "gold_emb_present": 9,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15763",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14583",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 74,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 4,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_15745",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 16,
+   "n_gold_nodes_qual": 24,
+   "n_gold_nodes_bare_extra": 69,
+   "gold_in_graph": true,
+   "gold_emb_present": 24,
+   "n_identifiers": 13,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 13,
+     "n_nonempty": 11,
+     "n_resolved": 9,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14297",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 14,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14303",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 13,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_13537",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14953",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 10,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 10,
+     "n_nonempty": 9,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_13786",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 24,
+   "n_gold_nodes_qual": 23,
+   "n_gold_nodes_bare_extra": 77,
+   "gold_in_graph": true,
+   "gold_emb_present": 23,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 12,
+     "n_resolved": 10,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_14616",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 11,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 11,
+     "n_nonempty": 11,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "fastapi_11194",
+   "repo": "fastapi/fastapi",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_6757",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_6629",
+   "repo": "psf/requests",
+   "n_gold_syms": 0,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 4,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 4,
+     "n_nonempty": 3,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_6644",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_6589",
+   "repo": "psf/requests",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "requests_6592",
+   "repo": "psf/requests",
+   "n_gold_syms": 0,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3180",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3486",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 6,
+   "n_gold_nodes_qual": 8,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 8,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3777",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 99,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3468",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3782",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 6,
+   "n_gold_nodes_qual": 6,
+   "n_gold_nodes_bare_extra": 160,
+   "gold_in_graph": true,
+   "gold_emb_present": 6,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3772",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3296",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 44,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3675",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 4,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 98,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3676",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 4,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 46,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 3,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3518",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 6,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 6,
+     "n_nonempty": 6,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3535",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3521",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3506",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3480",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 2,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 2,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3472",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3454",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 6,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 6,
+     "n_nonempty": 6,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3471",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 2,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3470",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3469",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 44,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3052",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 5,
+   "n_gold_nodes_qual": 5,
+   "n_gold_nodes_bare_extra": 98,
+   "gold_in_graph": true,
+   "gold_emb_present": 5,
+   "n_identifiers": 6,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 6,
+     "n_nonempty": 6,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3278",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 0,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 6,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 6,
+     "n_nonempty": 6,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_2943",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_2725",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 15,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 15,
+     "n_nonempty": 15,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3105",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 0,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3130",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 3,
+   "n_gold_nodes_qual": 3,
+   "n_gold_nodes_bare_extra": 107,
+   "gold_in_graph": true,
+   "gold_emb_present": 3,
+   "n_identifiers": 5,
+   "neighbors_hit_gold": true,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 4,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    },
+    "oracle": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 3,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3043",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 0,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 0,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 4,
+     "n_resolved": 3,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3067",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 3,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3006",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 0,
+   "n_gold_nodes_bare_extra": 1,
+   "gold_in_graph": false,
+   "gold_emb_present": 0,
+   "n_identifiers": 6,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "shim": {
+     "n_queries": 6,
+     "n_nonempty": 6,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 0,
+     "n_nonempty": 0,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3064",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 1,
+   "n_gold_nodes_bare_extra": 44,
+   "gold_in_graph": true,
+   "gold_emb_present": 1,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 1,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3063",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 1,
+   "n_gold_nodes_qual": 2,
+   "n_gold_nodes_bare_extra": 0,
+   "gold_in_graph": true,
+   "gold_emb_present": 2,
+   "n_identifiers": 1,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 1,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 2,
+     "n_nonempty": 2,
+     "n_resolved": 2,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": false
+    }
+   }
+  },
+  {
+   "instance_id": "rich_3061",
+   "repo": "Textualize/rich",
+   "n_gold_syms": 11,
+   "n_gold_nodes_qual": 11,
+   "n_gold_nodes_bare_extra": 147,
+   "gold_in_graph": true,
+   "gold_emb_present": 11,
+   "n_identifiers": 3,
+   "neighbors_hit_gold": false,
+   "cond": {
+    "nl_full": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "nl_line": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": true
+    },
+    "snippet": {
+     "n_queries": 1,
+     "n_nonempty": 1,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "keywords": {
+     "n_queries": 5,
+     "n_nonempty": 3,
+     "n_resolved": 2,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "shim": {
+     "n_queries": 3,
+     "n_nonempty": 2,
+     "n_resolved": 0,
+     "resolve_hits_gold": false,
+     "topk_hits_gold": false
+    },
+    "oracle": {
+     "n_queries": 5,
+     "n_nonempty": 5,
+     "n_resolved": 5,
+     "resolve_hits_gold": true,
+     "topk_hits_gold": true
+    }
+   }
+  }
+ ]
+}

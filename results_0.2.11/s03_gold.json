@@ -1,0 +1,6196 @@
+{
+ "summary": {
+  "n_tasks": 129,
+  "tasks_adds_only_py": 1,
+  "tasks_with_ge1_gold_sym": 121,
+  "tasks_module_level_only": 7,
+  "tasks_file_missing": 0,
+  "total_gold_syms": 522
+ },
+ "tasks": [
+  {
+   "instance_id": "fastapi_15661",
+   "repo": "fastapi/fastapi",
+   "base_commit": "ee22a4b8ca46dcce26c8c183afc4992a888d8be2",
+   "n_new_py": 1,
+   "n_mod_py": 0,
+   "n_non_py": 0,
+   "gold_symbols": [],
+   "n_gold_syms": 0,
+   "module_level_only": false,
+   "adds_only": true
+  },
+  {
+   "instance_id": "fastapi_15588",
+   "repo": "fastapi/fastapi",
+   "base_commit": "cb83b83dcf78eab4ea17d504db5abcda705fbdc4",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/sse.py",
+     "module": "fastapi.sse",
+     "qualname": "_check_id_no_null",
+     "bare": "_check_id_no_null",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/sse.py",
+     "module": "fastapi.sse",
+     "qualname": "ServerSentEvent",
+     "bare": "ServerSentEvent",
+     "kind": "class"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_15589",
+   "repo": "fastapi/fastapi",
+   "base_commit": "22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "request_params_to_args",
+     "bare": "request_params_to_args",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_15030",
+   "repo": "fastapi/fastapi",
+   "base_commit": "48d58ae3b6ef4ded5a4794618c00345667256d98",
+   "n_new_py": 6,
+   "n_mod_py": 3,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_path",
+     "bare": "get_openapi_path",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/responses.py",
+     "module": "fastapi.responses",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler",
+     "bare": "get_request_handler",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler.app",
+     "bare": "app",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler.app._serialize_item",
+     "bare": "_serialize_item",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 5,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14962",
+   "repo": "fastapi/fastapi",
+   "base_commit": "1e78a36b7310003f0ff634627d8a7bc53c6ccdee",
+   "n_new_py": 0,
+   "n_mod_py": 3,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "docs_src/custom_response/tutorial010_py310.py",
+     "module": "docs_src.custom_response.tutorial010_py310",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "docs_src/custom_response/tutorial010_py310.py",
+     "module": "docs_src.custom_response.tutorial010_py310",
+     "qualname": "read_items",
+     "bare": "read_items",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "ModelField.__hash__",
+     "bare": "__hash__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "serialize_response",
+     "bare": "serialize_response",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler.app",
+     "bare": "app",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 4,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_15280",
+   "repo": "fastapi/fastapi",
+   "base_commit": "6ee87478d821171139264cd9cd17cbd2232934ce",
+   "n_new_py": 1,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.websocket_route",
+     "bare": "websocket_route",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14964",
+   "repo": "fastapi/fastapi",
+   "base_commit": "bc06e4296d588f39f38c7ac2fc96d3913c565962",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/responses.py",
+     "module": "fastapi.responses",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/responses.py",
+     "module": "fastapi.responses",
+     "qualname": "UJSONResponse",
+     "bare": "UJSONResponse",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/responses.py",
+     "module": "fastapi.responses",
+     "qualname": "ORJSONResponse",
+     "bare": "ORJSONResponse",
+     "kind": "class"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_15023",
+   "repo": "fastapi/fastapi",
+   "base_commit": "c0836dc1b7f4ba91e9563c8c4ccd0ebe655bc914",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "docs_src/stream_data/tutorial002_py310.py",
+     "module": "docs_src.stream_data.tutorial002_py310",
+     "qualname": "stream_image",
+     "bare": "stream_image",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/stream_data/tutorial002_py310.py",
+     "module": "docs_src.stream_data.tutorial002_py310",
+     "qualname": "stream_image_no_async",
+     "bare": "stream_image_no_async",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/stream_data/tutorial002_py310.py",
+     "module": "docs_src.stream_data.tutorial002_py310",
+     "qualname": "stream_image_no_annotation",
+     "bare": "stream_image_no_annotation",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/stream_data/tutorial002_py310.py",
+     "module": "docs_src.stream_data.tutorial002_py310",
+     "qualname": "stream_image_no_async_no_annotation",
+     "bare": "stream_image_no_async_no_annotation",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 4,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14986",
+   "repo": "fastapi/fastapi",
+   "base_commit": "2f9c914d440e99fe8b62646b51e4d24c5bcd858b",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.setup",
+     "bare": "setup",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.setup.openapi",
+     "bare": "openapi",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/docs.py",
+     "module": "fastapi.openapi.docs",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/openapi/docs.py",
+     "module": "fastapi.openapi.docs",
+     "qualname": "get_swagger_ui_html",
+     "bare": "get_swagger_ui_html",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14978",
+   "repo": "fastapi/fastapi",
+   "base_commit": "94a1ee749e63591e6e275b726a66e07a25f6c407",
+   "n_new_py": 1,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler",
+     "bare": "get_request_handler",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler.app",
+     "bare": "app",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.get_route_handler",
+     "bare": "get_route_handler",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter",
+     "bare": "APIRouter",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.add_api_route",
+     "bare": "add_api_route",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.include_router",
+     "bare": "include_router",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 9,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_7505",
+   "repo": "psf/requests",
+   "base_commit": "6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/_types.py",
+     "module": "src.requests._types",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "src/requests/models.py",
+     "module": "src.requests.models",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "src/requests/models.py",
+     "module": "src.requests.models",
+     "qualname": "RequestEncodingMixin._encode_params",
+     "bare": "_encode_params",
+     "kind": "function"
+    },
+    {
+     "file": "src/requests/models.py",
+     "module": "src.requests.models",
+     "qualname": "RequestEncodingMixin._encode_files",
+     "bare": "_encode_files",
+     "kind": "function"
+    },
+    {
+     "file": "src/requests/models.py",
+     "module": "src.requests.models",
+     "qualname": "PreparedRequest.prepare_body",
+     "bare": "prepare_body",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_7502",
+   "repo": "psf/requests",
+   "base_commit": "661970d171d9c3e12e4c789c4768db647d8c4da0",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/models.py",
+     "module": "src.requests.models",
+     "qualname": "RequestEncodingMixin._encode_files",
+     "bare": "_encode_files",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_7433",
+   "repo": "psf/requests",
+   "base_commit": "0b401c76b6e80a4eecf3c690085b2553f6e261ca",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/models.py",
+     "module": "src.requests.models",
+     "qualname": "PreparedRequest.prepare_body",
+     "bare": "prepare_body",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_7427",
+   "repo": "psf/requests",
+   "base_commit": "b684dcb9bbf3aa557d1238e72062c4a29737dd1c",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/utils.py",
+     "module": "src.requests.utils",
+     "qualname": "should_bypass_proxies",
+     "bare": "should_bypass_proxies",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_7315",
+   "repo": "psf/requests",
+   "base_commit": "6360477c52303c9445b45fa8744b02d05a2f0905",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/adapters.py",
+     "module": "src.requests.adapters",
+     "qualname": "HTTPAdapter.request_url",
+     "bare": "request_url",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_7328",
+   "repo": "psf/requests",
+   "base_commit": "cbce031327be4f1b4b5fd041ff4dcaa8efa2ce53",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/sessions.py",
+     "module": "src.requests.sessions",
+     "qualname": "SessionRedirectMixin.resolve_redirects",
+     "bare": "resolve_redirects",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_7309",
+   "repo": "psf/requests",
+   "base_commit": "7407309c8a8a73aa2f4337184025d440bbedab7a",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/utils.py",
+     "module": "src.requests.utils",
+     "qualname": "_parse_content_type_header",
+     "bare": "_parse_content_type_header",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_7205",
+   "repo": "psf/requests",
+   "base_commit": "1b40fdd004bfc8ba5301bcf8a6908264e9b6b877",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/utils.py",
+     "module": "src.requests.utils",
+     "qualname": "get_netrc_auth",
+     "bare": "get_netrc_auth",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_4070",
+   "repo": "Textualize/rich",
+   "base_commit": "fc41075a3206d2a5fd846c6f41c4d2becab814fa",
+   "n_new_py": 0,
+   "n_mod_py": 9,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/_emoji_replace.py",
+     "module": "rich._emoji_replace",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/_emoji_replace.py",
+     "module": "rich._emoji_replace",
+     "qualname": "_emoji_replace",
+     "bare": "_emoji_replace",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.render",
+     "bare": "render",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console._collect_renderables",
+     "bare": "_collect_renderables",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console._caller_frame_info",
+     "bare": "_caller_frame_info",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.log",
+     "bare": "log",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.input",
+     "bare": "input",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.export_html",
+     "bare": "export_html",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.export_svg",
+     "bare": "export_svg",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "_svg_hash",
+     "bare": "_svg_hash",
+     "kind": "function"
+    },
+    {
+     "file": "rich/emoji.py",
+     "module": "rich.emoji",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/emoji.py",
+     "module": "rich.emoji",
+     "qualname": "Emoji",
+     "bare": "Emoji",
+     "kind": "class"
+    },
+    {
+     "file": "rich/emoji.py",
+     "module": "rich.emoji",
+     "qualname": "Emoji.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/logging.py",
+     "module": "rich.logging",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/logging.py",
+     "module": "rich.logging",
+     "qualname": "RichHandler.emit",
+     "bare": "emit",
+     "kind": "function"
+    },
+    {
+     "file": "rich/logging.py",
+     "module": "rich.logging",
+     "qualname": "RichHandler.render_message",
+     "bare": "render_message",
+     "kind": "function"
+    },
+    {
+     "file": "rich/logging.py",
+     "module": "rich.logging",
+     "qualname": "RichHandler.render",
+     "bare": "render",
+     "kind": "function"
+    },
+    {
+     "file": "rich/protocol.py",
+     "module": "rich.protocol",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/protocol.py",
+     "module": "rich.protocol",
+     "qualname": "rich_cast",
+     "bare": "rich_cast",
+     "kind": "function"
+    },
+    {
+     "file": "rich/repr.py",
+     "module": "rich.repr",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/repr.py",
+     "module": "rich.repr",
+     "qualname": "auto.do_replace.auto_rich_repr",
+     "bare": "auto_rich_repr",
+     "kind": "function"
+    },
+    {
+     "file": "rich/segment.py",
+     "module": "rich.segment",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/theme.py",
+     "module": "rich.theme",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/theme.py",
+     "module": "rich.theme",
+     "qualname": "Theme.from_file",
+     "bare": "from_file",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 17,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_4077",
+   "repo": "Textualize/rich",
+   "base_commit": "58ac15120fe254886c10d6253667733c83604cb4",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/file_proxy.py",
+     "module": "rich.file_proxy",
+     "qualname": "FileProxy.fileno",
+     "bare": "fileno",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_4079",
+   "repo": "Textualize/rich",
+   "base_commit": "19c67b9a3479841e9133bea94607c89ee931d3fc",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "TableDataElement.on_text",
+     "bare": "on_text",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_4076",
+   "repo": "Textualize/rich",
+   "base_commit": "9cb198944f8184df92217efc8b20d3fffa4b4fa0",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/ansi.py",
+     "module": "rich.ansi",
+     "qualname": "AnsiDecoder.decode",
+     "bare": "decode",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_4075",
+   "repo": "Textualize/rich",
+   "base_commit": "1fc7cb210ae52eb099df39818ddb9569e5b14c7b",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.print",
+     "bare": "print",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.save_text",
+     "bare": "save_text",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_4006",
+   "repo": "Textualize/rich",
+   "base_commit": "27701029082052c6541031b6f139097230253900",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "split_graphemes",
+     "bare": "split_graphemes",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14258",
+   "repo": "fastapi/fastapi",
+   "base_commit": "e94028ab60d18080810910352bc9129e8046c92d",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.include_router",
+     "bare": "include_router",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14851",
+   "repo": "fastapi/fastapi",
+   "base_commit": "8e50c55fd90c4433ddc9096ff439da9498a8314a",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "_merge_lifespan_context",
+     "bare": "_merge_lifespan_context",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter",
+     "bare": "APIRouter",
+     "kind": "class"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14873",
+   "repo": "fastapi/fastapi",
+   "base_commit": "cd31576d5704b6aef1bdadc43770238cd88aad2b",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_13920",
+   "repo": "fastapi/fastapi",
+   "base_commit": "0dd42b746e17d33a74ea267a62eace9ccdccf345",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "analyze_param",
+     "bare": "analyze_param",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14794",
+   "repo": "fastapi/fastapi",
+   "base_commit": "464c359bb03f7ba72330198cc9f44df36194837d",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "analyze_param",
+     "bare": "analyze_param",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14786",
+   "repo": "fastapi/fastapi",
+   "base_commit": "eacbce24c9d299c6a28110d9fc8ac50f53cddb08",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/security/utils.py",
+     "module": "fastapi.security.utils",
+     "qualname": "get_authorization_scheme_param",
+     "bare": "get_authorization_scheme_param",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14492",
+   "repo": "fastapi/fastapi",
+   "base_commit": "a456e92a21d5b94a67d6d0fd070218df09444443",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "docs_src/metadata/tutorial001_1_py39.py",
+     "module": "docs_src.metadata.tutorial001_1_py39",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 0,
+   "module_level_only": true,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14479",
+   "repo": "fastapi/fastapi",
+   "base_commit": "2b212ddd7604891d42e2ffbafe764c334230bdb7",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "analyze_param",
+     "bare": "analyze_param",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14463",
+   "repo": "fastapi/fastapi",
+   "base_commit": "f2687dc1bb01f4cb62eee90e656b61c38c2aaf6a",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_path",
+     "bare": "get_openapi_path",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_12942",
+   "repo": "fastapi/fastapi",
+   "base_commit": "27c0f7e75fc0ce26ca75295d455eb36f0ca033d3",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat.py",
+     "module": "fastapi._compat",
+     "qualname": "field_annotation_is_complex",
+     "bare": "field_annotation_is_complex",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14099",
+   "repo": "fastapi/fastapi",
+   "base_commit": "861b22c40897a03d2d7e5926923d962121ed5e2e",
+   "n_new_py": 3,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.openapi",
+     "bare": "openapi",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "_prepare_response_content",
+     "bare": "_prepare_response_content",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler.app",
+     "bare": "app",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_websocket_app.app",
+     "bare": "app",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 4,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14609",
+   "repo": "fastapi/fastapi",
+   "base_commit": "1b3bea8b6be2220cc1544653ea785d2134fcb35b",
+   "n_new_py": 0,
+   "n_mod_py": 20,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "docs_src/request_form_models/tutorial002_pv1_an_py39.py",
+     "module": "docs_src.request_form_models.tutorial002_pv1_an_py39",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "docs_src/request_form_models/tutorial002_pv1_an_py39.py",
+     "module": "docs_src.request_form_models.tutorial002_pv1_an_py39",
+     "qualname": "FormData",
+     "bare": "FormData",
+     "kind": "class"
+    },
+    {
+     "file": "docs_src/request_form_models/tutorial002_pv1_an_py39.py",
+     "module": "docs_src.request_form_models.tutorial002_pv1_an_py39",
+     "qualname": "FormData.Config",
+     "bare": "Config",
+     "kind": "class"
+    },
+    {
+     "file": "docs_src/request_form_models/tutorial002_pv1_an_py39.py",
+     "module": "docs_src.request_form_models.tutorial002_pv1_an_py39",
+     "qualname": "login",
+     "bare": "login",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/request_form_models/tutorial002_pv1_py39.py",
+     "module": "docs_src.request_form_models.tutorial002_pv1_py39",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "docs_src/request_form_models/tutorial002_pv1_py39.py",
+     "module": "docs_src.request_form_models.tutorial002_pv1_py39",
+     "qualname": "FormData",
+     "bare": "FormData",
+     "kind": "class"
+    },
+    {
+     "file": "docs_src/request_form_models/tutorial002_pv1_py39.py",
+     "module": "docs_src.request_form_models.tutorial002_pv1_py39",
+     "qualname": "FormData.Config",
+     "bare": "Config",
+     "kind": "class"
+    },
+    {
+     "file": "docs_src/request_form_models/tutorial002_pv1_py39.py",
+     "module": "docs_src.request_form_models.tutorial002_pv1_py39",
+     "qualname": "login",
+     "bare": "login",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/__init__.py",
+     "module": "fastapi._compat.__init__",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_cached_model_fields",
+     "bare": "get_cached_model_fields",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_is_undefined",
+     "bare": "_is_undefined",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_get_model_config",
+     "bare": "_get_model_config",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_model_dump",
+     "bare": "_model_dump",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_is_error_wrapper",
+     "bare": "_is_error_wrapper",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "copy_field_info",
+     "bare": "copy_field_info",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "create_body_model",
+     "bare": "create_body_model",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_annotation_from_field_info",
+     "bare": "get_annotation_from_field_info",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_bytes_field",
+     "bare": "is_bytes_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_bytes_sequence_field",
+     "bare": "is_bytes_sequence_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_scalar_field",
+     "bare": "is_scalar_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_scalar_sequence_field",
+     "bare": "is_scalar_sequence_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_sequence_field",
+     "bare": "is_sequence_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "serialize_sequence_value",
+     "bare": "serialize_sequence_value",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_compat_model_name_map",
+     "bare": "get_compat_model_name_map",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_definitions",
+     "bare": "get_definitions",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_schema_from_model_field",
+     "bare": "get_schema_from_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_is_model_field",
+     "bare": "_is_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_is_model_class",
+     "bare": "_is_model_class",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "AnyUrl",
+     "bare": "AnyUrl",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "BaseConfig",
+     "bare": "BaseConfig",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "BaseModel",
+     "bare": "BaseModel",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "Color",
+     "bare": "Color",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "CoreSchema",
+     "bare": "CoreSchema",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "ErrorWrapper",
+     "bare": "ErrorWrapper",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "FieldInfo",
+     "bare": "FieldInfo",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "GetJsonSchemaHandler",
+     "bare": "GetJsonSchemaHandler",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "JsonSchemaValue",
+     "bare": "JsonSchemaValue",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "ModelField",
+     "bare": "ModelField",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "NameEmail",
+     "bare": "NameEmail",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "RequiredParam",
+     "bare": "RequiredParam",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "SecretBytes",
+     "bare": "SecretBytes",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "SecretStr",
+     "bare": "SecretStr",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "Undefined",
+     "bare": "Undefined",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "UndefinedType",
+     "bare": "UndefinedType",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "Url",
+     "bare": "Url",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "get_definitions",
+     "bare": "get_definitions",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "_normalize_errors",
+     "bare": "_normalize_errors",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/may_v1.py",
+     "module": "fastapi._compat.may_v1",
+     "qualname": "_regenerate_error_with_loc",
+     "bare": "_regenerate_error_with_loc",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "ModelField",
+     "bare": "ModelField",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "ModelField.alias",
+     "bare": "alias",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "ModelField.required",
+     "bare": "required",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "ModelField.default",
+     "bare": "default",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "ModelField.type_",
+     "bare": "type_",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "ModelField.get_default",
+     "bare": "get_default",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "ModelField.validate",
+     "bare": "validate",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/model_field.py",
+     "module": "fastapi._compat.model_field",
+     "qualname": "ModelField.serialize",
+     "bare": "serialize",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/shared.py",
+     "module": "fastapi._compat.shared",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/shared.py",
+     "module": "fastapi._compat.shared",
+     "qualname": "_annotation_is_complex",
+     "bare": "_annotation_is_complex",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/shared.py",
+     "module": "fastapi._compat.shared",
+     "qualname": "annotation_is_pydantic_v1",
+     "bare": "annotation_is_pydantic_v1",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "GenerateJsonSchema",
+     "bare": "GenerateJsonSchema",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "PydanticSchemaGenerationError",
+     "bare": "PydanticSchemaGenerationError",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "with_info_plain_validator_function",
+     "bare": "with_info_plain_validator_function",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "get_model_definitions",
+     "bare": "get_model_definitions",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "is_pv1_scalar_field",
+     "bare": "is_pv1_scalar_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "_model_dump",
+     "bare": "_model_dump",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "_get_model_config",
+     "bare": "_get_model_config",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "get_schema_from_model_field",
+     "bare": "get_schema_from_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "get_definitions",
+     "bare": "get_definitions",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "is_scalar_field",
+     "bare": "is_scalar_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "is_sequence_field",
+     "bare": "is_sequence_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "is_bytes_field",
+     "bare": "is_bytes_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "is_bytes_sequence_field",
+     "bare": "is_bytes_sequence_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "copy_field_info",
+     "bare": "copy_field_info",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "serialize_sequence_value",
+     "bare": "serialize_sequence_value",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "create_body_model",
+     "bare": "create_body_model",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "get_model_fields",
+     "bare": "get_model_fields",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "ModelField.validate",
+     "bare": "validate",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "get_annotation_from_field_info",
+     "bare": "get_annotation_from_field_info",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "_model_dump",
+     "bare": "_model_dump",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "_get_model_config",
+     "bare": "_get_model_config",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "get_model_name_map",
+     "bare": "get_model_name_map",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "get_long_model_name",
+     "bare": "get_long_model_name",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/datastructures.py",
+     "module": "fastapi.datastructures",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/datastructures.py",
+     "module": "fastapi.datastructures",
+     "qualname": "UploadFile.__get_pydantic_json_schema__",
+     "bare": "__get_pydantic_json_schema__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/datastructures.py",
+     "module": "fastapi.datastructures",
+     "qualname": "UploadFile.__get_pydantic_core_schema__",
+     "bare": "__get_pydantic_core_schema__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_get_flat_fields_from_params",
+     "bare": "_get_flat_fields_from_params",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_dependant",
+     "bare": "get_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "analyze_param",
+     "bare": "analyze_param",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_validate_value_with_model_field",
+     "bare": "_validate_value_with_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_get_multidict_value",
+     "bare": "_get_multidict_value",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "request_params_to_args",
+     "bare": "request_params_to_args",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "is_union_of_base_models",
+     "bare": "is_union_of_base_models",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_should_embed_body_fields",
+     "bare": "_should_embed_body_fields",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_extract_form_body",
+     "bare": "_extract_form_body",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "request_body_to_args",
+     "bare": "request_body_to_args",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_body_field",
+     "bare": "get_body_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/encoders.py",
+     "module": "fastapi.encoders",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/encoders.py",
+     "module": "fastapi.encoders",
+     "qualname": "jsonable_encoder",
+     "bare": "jsonable_encoder",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "FastAPIDeprecationWarning",
+     "bare": "FastAPIDeprecationWarning",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/openapi/models.py",
+     "module": "fastapi.openapi.models",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/openapi/models.py",
+     "module": "fastapi.openapi.models",
+     "qualname": "EmailStr.__get_pydantic_json_schema__",
+     "bare": "__get_pydantic_json_schema__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/models.py",
+     "module": "fastapi.openapi.models",
+     "qualname": "EmailStr.__get_pydantic_core_schema__",
+     "bare": "__get_pydantic_core_schema__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "_get_openapi_operation_parameters",
+     "bare": "_get_openapi_operation_parameters",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_operation_request_body",
+     "bare": "get_openapi_operation_request_body",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_path",
+     "bare": "get_openapi_path",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_fields_from_routes",
+     "bare": "get_fields_from_routes",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "Path",
+     "bare": "Path",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "Query",
+     "bare": "Query",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "Header",
+     "bare": "Header",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "Cookie",
+     "bare": "Cookie",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "Body",
+     "bare": "Body",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "Form",
+     "bare": "Form",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "File",
+     "bare": "File",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Param.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Path.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Query.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Header.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Cookie.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Body.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Form.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "File.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "_prepare_response_content",
+     "bare": "_prepare_response_content",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "serialize_response",
+     "bare": "serialize_response",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler",
+     "bare": "get_request_handler",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler.app",
+     "bare": "app",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_websocket_app.app",
+     "bare": "app",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Param",
+     "bare": "Param",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Param.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Param.__repr__",
+     "bare": "__repr__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Path",
+     "bare": "Path",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Path.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Query",
+     "bare": "Query",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Query.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Header",
+     "bare": "Header",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Header.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Cookie",
+     "bare": "Cookie",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Cookie.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Body",
+     "bare": "Body",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Body.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Body.__repr__",
+     "bare": "__repr__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Form",
+     "bare": "Form",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Form.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "File",
+     "bare": "File",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "File.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/utils.py",
+     "module": "fastapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/utils.py",
+     "module": "fastapi.utils",
+     "qualname": "create_model_field",
+     "bare": "create_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/utils.py",
+     "module": "fastapi.utils",
+     "qualname": "create_cloned_field",
+     "bare": "create_cloned_field",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 140,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14372",
+   "repo": "fastapi/fastapi",
+   "base_commit": "566e3157a5517784c741dbf36e39687af326fe90",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "analyze_param",
+     "bare": "analyze_param",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14349",
+   "repo": "fastapi/fastapi",
+   "base_commit": "eaf611f9ee56de4f16c837d4f487a4b9fca507c4",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "_replace_refs",
+     "bare": "_replace_refs",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14512",
+   "repo": "fastapi/fastapi",
+   "base_commit": "1fcec88ad2df4541b6a81c4786c4d039dc745e1e",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "ModelField.__post_init__",
+     "bare": "__post_init__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14487",
+   "repo": "fastapi/fastapi",
+   "base_commit": "4a98a66778987648d2195155c9cbe0824d67b02a",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "docs_src/handling_errors/tutorial004.py",
+     "module": "docs_src.handling_errors.tutorial004",
+     "qualname": "validation_exception_handler",
+     "bare": "validation_exception_handler",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_11355",
+   "repo": "fastapi/fastapi",
+   "base_commit": "811fa898752e7f5697733a2958ff79ad8dfb5276",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_typed_signature",
+     "bare": "get_typed_signature",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_typed_return_annotation",
+     "bare": "get_typed_return_annotation",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14485",
+   "repo": "fastapi/fastapi",
+   "base_commit": "60699f306b67dc1f4918ebea17f04d7a48cda645",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_typed_signature",
+     "bare": "get_typed_signature",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_typed_return_annotation",
+     "bare": "get_typed_return_annotation",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14482",
+   "repo": "fastapi/fastapi",
+   "base_commit": "71a17b5932e38bcf798fcd05c5bb384e6d4db5bf",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "ModelField",
+     "bare": "ModelField",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "ModelField.__post_init__",
+     "bare": "__post_init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "get_model_fields",
+     "bare": "get_model_fields",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14306",
+   "repo": "fastapi/fastapi",
+   "base_commit": "08b09e5236e315b6f10265ed229f130d4befb4ea",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "HTTPException",
+     "bare": "HTTPException",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "ValidationException.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "RequestValidationError.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "WebSocketRequestValidationError",
+     "bare": "WebSocketRequestValidationError",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "ResponseValidationError.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "ResponseValidationError",
+     "bare": "ResponseValidationError",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "ResponseValidationError.__str__",
+     "bare": "__str__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "serialize_response",
+     "bare": "serialize_response",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_request_handler.app",
+     "bare": "app",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "get_websocket_app.app",
+     "bare": "app",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 10,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14458",
+   "repo": "fastapi/fastapi",
+   "base_commit": "516169428d2fa189d34318ebc469a082c49c1189",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_gen_callable",
+     "bare": "is_gen_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_async_gen_callable",
+     "bare": "is_async_gen_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_coroutine_callable",
+     "bare": "is_coroutine_callable",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14459",
+   "repo": "fastapi/fastapi",
+   "base_commit": "eb1d50479ba0ac873e4ffa08a824b1d822ca3a17",
+   "n_new_py": 0,
+   "n_mod_py": 3,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "SecurityRequirement",
+     "bare": "SecurityRequirement",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant",
+     "bare": "Dependant",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant._uses_scopes",
+     "bare": "_uses_scopes",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_flat_dependant",
+     "bare": "get_flat_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_dependant",
+     "bare": "get_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_security_definitions",
+     "bare": "get_openapi_security_definitions",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 6,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14448",
+   "repo": "fastapi/fastapi",
+   "base_commit": "c57ac7bdf3613798c94caceff562a41fa16d4a2d",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant",
+     "bare": "Dependant",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant._unwrapped_call",
+     "bare": "_unwrapped_call",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_gen_callable",
+     "bare": "is_gen_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_async_gen_callable",
+     "bare": "is_async_gen_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_coroutine_callable",
+     "bare": "is_coroutine_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_solve_generator",
+     "bare": "_solve_generator",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 6,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14455",
+   "repo": "fastapi/fastapi",
+   "base_commit": "603df6e36f59cc4a3e189f506b8f36d1e816c3ac",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_security_definitions",
+     "bare": "get_openapi_security_definitions",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_9753",
+   "repo": "fastapi/fastapi",
+   "base_commit": "aee8e78078e8a7f2736d3cab7a1cb7197356951c",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant._unwrapped_call",
+     "bare": "_unwrapped_call",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14430",
+   "repo": "fastapi/fastapi",
+   "base_commit": "cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "serialize_sequence_value",
+     "bare": "serialize_sequence_value",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_5077",
+   "repo": "fastapi/fastapi",
+   "base_commit": "930b27e5fa32ce150ddcea61f0c913435ae71c83",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_typed_signature",
+     "bare": "get_typed_signature",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_typed_return_annotation",
+     "bare": "get_typed_return_annotation",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_9555",
+   "repo": "fastapi/fastapi",
+   "base_commit": "4976568fc7cb7501729d8f84d946cde1e91299cd",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_gen_callable",
+     "bare": "is_gen_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_async_gen_callable",
+     "bare": "is_async_gen_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.is_coroutine_callable",
+     "bare": "is_coroutine_callable",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14361",
+   "repo": "fastapi/fastapi",
+   "base_commit": "5265c4f5cb4d8fb4fb5015bccf1a6de8f3fc6044",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "_remap_definitions_and_field_mappings",
+     "bare": "_remap_definitions_and_field_mappings",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_13207",
+   "repo": "fastapi/fastapi",
+   "base_commit": "5126e099bdda51f261fd5a101b5f914991d31897",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "get_schema_from_model_field",
+     "bare": "get_schema_from_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "get_definitions",
+     "bare": "get_definitions",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14360",
+   "repo": "fastapi/fastapi",
+   "base_commit": "eead41bf4cf8587b4d86091dd3eabbb85796e717",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "request_params_to_args",
+     "bare": "request_params_to_args",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14356",
+   "repo": "fastapi/fastapi",
+   "base_commit": "6cf40df24d1d199fd25d034fc87fcae284fc23a2",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "request_params_to_args",
+     "bare": "request_params_to_args",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_5624",
+   "repo": "fastapi/fastapi",
+   "base_commit": "c6487ed632056e450d844846a1b63be551a3cbc6",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_dependant",
+     "bare": "get_dependant",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14419",
+   "repo": "fastapi/fastapi",
+   "base_commit": "63d7a2b9978258d13dfc22664e60fc2110d30e20",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant",
+     "bare": "Dependant",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.cache_key",
+     "bare": "cache_key",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_parameterless_sub_dependant",
+     "bare": "get_parameterless_sub_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_dependant",
+     "bare": "get_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "solve_dependencies",
+     "bare": "solve_dependencies",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 5,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14301",
+   "repo": "fastapi/fastapi",
+   "base_commit": "972a967d5d3fa24d450637c36c6b7ad1f1d8c1b6",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_parameterless_sub_dependant",
+     "bare": "get_parameterless_sub_dependant",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14262",
+   "repo": "fastapi/fastapi",
+   "base_commit": "425a4c5bb1d1a8e00007e82e5188fc4d30585767",
+   "n_new_py": 3,
+   "n_mod_py": 7,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant",
+     "bare": "Dependant",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/dependencies/models.py",
+     "module": "fastapi.dependencies.models",
+     "qualname": "Dependant.__post_init__",
+     "bare": "__post_init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_flat_dependant",
+     "bare": "get_flat_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_dependant",
+     "bare": "get_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "is_coroutine_callable",
+     "bare": "is_coroutine_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "is_async_gen_callable",
+     "bare": "is_async_gen_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "is_gen_callable",
+     "bare": "is_gen_callable",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "solve_generator",
+     "bare": "solve_generator",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "SolvedDependency",
+     "bare": "SolvedDependency",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "solve_dependencies",
+     "bare": "solve_dependencies",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "ValidationException",
+     "bare": "ValidationException",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/param_functions.py",
+     "module": "fastapi.param_functions",
+     "qualname": "Depends",
+     "bare": "Depends",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "request_response.app.app",
+     "bare": "app",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "websocket_session.app.app",
+     "bare": "app",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIWebSocketRoute.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/types.py",
+     "module": "fastapi.types",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 16,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14266",
+   "repo": "fastapi/fastapi",
+   "base_commit": "2cf04ee30db9df2db04a5b1e0d2c625dfbf1a211",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_dependant",
+     "bare": "get_dependant",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14246",
+   "repo": "fastapi/fastapi",
+   "base_commit": "7132a690461c2367f22556eb87c2b5eb7d9cfb45",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "get_definitions",
+     "bare": "get_definitions",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14186",
+   "repo": "fastapi/fastapi",
+   "base_commit": "6e49dc029541aaa896fa63c47647ccd3f066df67",
+   "n_new_py": 1,
+   "n_mod_py": 9,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/__init__.py",
+     "module": "fastapi._compat.__init__",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_cached_model_fields",
+     "bare": "get_cached_model_fields",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_is_undefined",
+     "bare": "_is_undefined",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_get_model_config",
+     "bare": "_get_model_config",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_model_dump",
+     "bare": "_model_dump",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_is_error_wrapper",
+     "bare": "_is_error_wrapper",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "copy_field_info",
+     "bare": "copy_field_info",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "create_body_model",
+     "bare": "create_body_model",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_annotation_from_field_info",
+     "bare": "get_annotation_from_field_info",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_bytes_field",
+     "bare": "is_bytes_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_bytes_sequence_field",
+     "bare": "is_bytes_sequence_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_scalar_field",
+     "bare": "is_scalar_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_scalar_sequence_field",
+     "bare": "is_scalar_sequence_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "is_sequence_field",
+     "bare": "is_sequence_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "serialize_sequence_value",
+     "bare": "serialize_sequence_value",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_model_rebuild",
+     "bare": "_model_rebuild",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_compat_model_name_map",
+     "bare": "get_compat_model_name_map",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_definitions",
+     "bare": "get_definitions",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "get_schema_from_model_field",
+     "bare": "get_schema_from_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_is_model_field",
+     "bare": "_is_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/main.py",
+     "module": "fastapi._compat.main",
+     "qualname": "_is_model_class",
+     "bare": "_is_model_class",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/shared.py",
+     "module": "fastapi._compat.shared",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/shared.py",
+     "module": "fastapi._compat.shared",
+     "qualname": "_annotation_is_complex",
+     "bare": "_annotation_is_complex",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/shared.py",
+     "module": "fastapi._compat.shared",
+     "qualname": "annotation_is_pydantic_v1",
+     "bare": "annotation_is_pydantic_v1",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "_normalize_errors",
+     "bare": "_normalize_errors",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v1.py",
+     "module": "fastapi._compat.v1",
+     "qualname": "_regenerate_error_with_loc",
+     "bare": "_regenerate_error_with_loc",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "ModelField.validate",
+     "bare": "validate",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "analyze_param",
+     "bare": "analyze_param",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_validate_value_with_model_field",
+     "bare": "_validate_value_with_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/encoders.py",
+     "module": "fastapi.encoders",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/encoders.py",
+     "module": "fastapi.encoders",
+     "qualname": "jsonable_encoder",
+     "bare": "jsonable_encoder",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/utils.py",
+     "module": "fastapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/utils.py",
+     "module": "fastapi.utils",
+     "qualname": "create_model_field",
+     "bare": "create_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/utils.py",
+     "module": "fastapi.utils",
+     "qualname": "create_cloned_field",
+     "bare": "create_cloned_field",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 30,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_9425",
+   "repo": "fastapi/fastapi",
+   "base_commit": "0bdc3ca3732e3742e094bea2b320e9774659ac38",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_typed_annotation",
+     "bare": "get_typed_annotation",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_13713",
+   "repo": "fastapi/fastapi",
+   "base_commit": "5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.openapi",
+     "bare": "openapi",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi",
+     "bare": "get_openapi",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14077",
+   "repo": "fastapi/fastapi",
+   "base_commit": "16d75d90eb96976a57b94cc24e4018859cd54c4d",
+   "n_new_py": 0,
+   "n_mod_py": 3,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "docs_src/handling_errors/tutorial005.py",
+     "module": "docs_src.handling_errors.tutorial005",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "docs_src/handling_errors/tutorial005.py",
+     "module": "docs_src.handling_errors.tutorial005",
+     "qualname": "validation_exception_handler",
+     "bare": "validation_exception_handler",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/exception_handlers.py",
+     "module": "fastapi.exception_handlers",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/exception_handlers.py",
+     "module": "fastapi.exception_handlers",
+     "qualname": "request_validation_exception_handler",
+     "bare": "request_validation_exception_handler",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_path",
+     "bare": "get_openapi_path",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3718",
+   "repo": "Textualize/rich",
+   "base_commit": "7d36119f8378b36129502c3281a7faffef837e02",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/panel.py",
+     "module": "rich.panel",
+     "qualname": "Panel.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3934",
+   "repo": "Textualize/rich",
+   "base_commit": "6764b24739b580c0c32ff5ef0b971ed4cfcf4f75",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/live.py",
+     "module": "rich.live",
+     "qualname": "Live.stop",
+     "bare": "stop",
+     "kind": "function"
+    },
+    {
+     "file": "rich/live_render.py",
+     "module": "rich.live_render",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/live_render.py",
+     "module": "rich.live_render",
+     "qualname": "LiveRender.set_renderable",
+     "bare": "set_renderable",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3953",
+   "repo": "Textualize/rich",
+   "base_commit": "1d402e0c59f8765e420a5a4440eb2fca7465d1ae",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "get_character_cell_size",
+     "bare": "get_character_cell_size",
+     "kind": "function"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "_cell_len",
+     "bare": "_cell_len",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3944",
+   "repo": "Textualize/rich",
+   "base_commit": "36fe3f7ca9becca4777861d5e6e625f5a4a37545",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "get_character_cell_size",
+     "bare": "get_character_cell_size",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3942",
+   "repo": "Textualize/rich",
+   "base_commit": "c595fa95068dd2c5095d25446b2f0571bc0b3995",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/default_styles.py",
+     "module": "rich.default_styles",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "Heading",
+     "bare": "Heading",
+     "kind": "class"
+    },
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "Heading.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "HorizontalRule.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "TableElement.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 4,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3938",
+   "repo": "Textualize/rich",
+   "base_commit": "05ff970926cbd0b5d0acb6fc18cdbd1fc971e582",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.print",
+     "bare": "print",
+     "kind": "function"
+    },
+    {
+     "file": "rich/segment.py",
+     "module": "rich.segment",
+     "qualname": "Segment",
+     "bare": "Segment",
+     "kind": "class"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3882",
+   "repo": "Textualize/rich",
+   "base_commit": "4d6d631a3d2deddf8405522d4b8c976a6d35726c",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/prompt.py",
+     "module": "rich.prompt",
+     "qualname": "PromptBase.on_validate_error",
+     "bare": "on_validate_error",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3894",
+   "repo": "Textualize/rich",
+   "base_commit": "4d6d631a3d2deddf8405522d4b8c976a6d35726c",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/_inspect.py",
+     "module": "rich._inspect",
+     "qualname": "Inspect._get_signature",
+     "bare": "_get_signature",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3935",
+   "repo": "Textualize/rich",
+   "base_commit": "fe55a131c2780fa856464ad04d7d6dc8a1079b72",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/table.py",
+     "module": "rich.table",
+     "qualname": "Table.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/table.py",
+     "module": "rich.table",
+     "qualname": "Table._calculate_column_widths",
+     "bare": "_calculate_column_widths",
+     "kind": "function"
+    },
+    {
+     "file": "rich/table.py",
+     "module": "rich.table",
+     "qualname": "Table._get_padding_width",
+     "bare": "_get_padding_width",
+     "kind": "function"
+    },
+    {
+     "file": "rich/table.py",
+     "module": "rich.table",
+     "qualname": "Table._measure_column",
+     "bare": "_measure_column",
+     "kind": "function"
+    },
+    {
+     "file": "rich/table.py",
+     "module": "rich.table",
+     "qualname": "Table._render",
+     "bare": "_render",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 5,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3905",
+   "repo": "Textualize/rich",
+   "base_commit": "96dd4b60e3a7c647c43a85ad375afa690b3bb85b",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/progress.py",
+     "module": "rich.progress",
+     "qualname": "Progress.stop",
+     "bare": "stop",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3930",
+   "repo": "Textualize/rich",
+   "base_commit": "53757bc234cf18977cade41a5b64f3abaccb0b85",
+   "n_new_py": 23,
+   "n_mod_py": 3,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/__main__.py",
+     "module": "rich.__main__",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/_cell_widths.py",
+     "module": "rich._cell_widths",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "cached_cell_len",
+     "bare": "cached_cell_len",
+     "kind": "function"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "cell_len",
+     "bare": "cell_len",
+     "kind": "function"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "get_character_cell_size",
+     "bare": "get_character_cell_size",
+     "kind": "function"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "set_cell_size",
+     "bare": "set_cell_size",
+     "kind": "function"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "chop_cells",
+     "bare": "chop_cells",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 5,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "httpx_3672",
+   "repo": "encode/httpx",
+   "base_commit": "4acf5c2c37714cc63b5cf71b3e284fca83c90311",
+   "n_new_py": 0,
+   "n_mod_py": 7,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/ahttpx/_parsers.py",
+     "module": "src.ahttpx._parsers",
+     "qualname": "HTTPParser.complete",
+     "bare": "complete",
+     "kind": "function"
+    },
+    {
+     "file": "src/ahttpx/_parsers.py",
+     "module": "src.ahttpx._parsers",
+     "qualname": "HTTPParser.close",
+     "bare": "close",
+     "kind": "function"
+    },
+    {
+     "file": "src/ahttpx/_pool.py",
+     "module": "src.ahttpx._pool",
+     "qualname": "Connection.send",
+     "bare": "send",
+     "kind": "function"
+    },
+    {
+     "file": "src/ahttpx/_pool.py",
+     "module": "src.ahttpx._pool",
+     "qualname": "Connection",
+     "bare": "Connection",
+     "kind": "class"
+    },
+    {
+     "file": "src/ahttpx/_pool.py",
+     "module": "src.ahttpx._pool",
+     "qualname": "Connection._complete",
+     "bare": "_complete",
+     "kind": "function"
+    },
+    {
+     "file": "src/ahttpx/_server.py",
+     "module": "src.ahttpx._server",
+     "qualname": "HTTPConnection.handle_requests",
+     "bare": "handle_requests",
+     "kind": "function"
+    },
+    {
+     "file": "src/ahttpx/_server.py",
+     "module": "src.ahttpx._server",
+     "qualname": "HTTPConnection._complete",
+     "bare": "_complete",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_network.py",
+     "module": "src.httpx._network",
+     "qualname": "NetworkStream.__repr__",
+     "bare": "__repr__",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_network.py",
+     "module": "src.httpx._network",
+     "qualname": "NetworkServer.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_network.py",
+     "module": "src.httpx._network",
+     "qualname": "NetworkServer._serve",
+     "bare": "_serve",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_parsers.py",
+     "module": "src.httpx._parsers",
+     "qualname": "HTTPParser.complete",
+     "bare": "complete",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_parsers.py",
+     "module": "src.httpx._parsers",
+     "qualname": "HTTPParser.close",
+     "bare": "close",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_pool.py",
+     "module": "src.httpx._pool",
+     "qualname": "Connection.send",
+     "bare": "send",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_pool.py",
+     "module": "src.httpx._pool",
+     "qualname": "Connection",
+     "bare": "Connection",
+     "kind": "class"
+    },
+    {
+     "file": "src/httpx/_pool.py",
+     "module": "src.httpx._pool",
+     "qualname": "Connection._complete",
+     "bare": "_complete",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_server.py",
+     "module": "src.httpx._server",
+     "qualname": "HTTPConnection.handle_requests",
+     "bare": "handle_requests",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_server.py",
+     "module": "src.httpx._server",
+     "qualname": "HTTPConnection._complete",
+     "bare": "_complete",
+     "kind": "function"
+    },
+    {
+     "file": "src/httpx/_server.py",
+     "module": "src.httpx._server",
+     "qualname": "HTTPServer.wait",
+     "bare": "wait",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 18,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14791",
+   "repo": "fastapi/fastapi",
+   "base_commit": "08924400c2c75533685148b029defcf6913f1def",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 0,
+   "module_level_only": true,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_15800",
+   "repo": "fastapi/fastapi",
+   "base_commit": "f1d750fddad90e2faad6c3cc5c85c7687b787e89",
+   "n_new_py": 6,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.api_route",
+     "bare": "api_route",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "_RouterIncludeContext.path_for",
+     "bare": "path_for",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "_IncludedRouter",
+     "bare": "_IncludedRouter",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "_IncludedRouter._build_effective_context",
+     "bare": "_build_effective_context",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter",
+     "bare": "APIRouter",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.handle",
+     "bare": "handle",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.route",
+     "bare": "route",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 7,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_15785",
+   "repo": "fastapi/fastapi",
+   "base_commit": "202b2d2f5f331db9102b5dbcef071a9e09bed10e",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "_get_api_route_for_openapi",
+     "bare": "_get_api_route_for_openapi",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_fields_from_routes",
+     "bare": "get_fields_from_routes",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi",
+     "bare": "get_openapi",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "_iter_routes_with_context",
+     "bare": "_iter_routes_with_context",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 4,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14371",
+   "repo": "fastapi/fastapi",
+   "base_commit": "3fe6522aaed4d36d6a38175a4a8137ee0fc62451",
+   "n_new_py": 0,
+   "n_mod_py": 4,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "ModelField",
+     "bare": "ModelField",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "get_schema_from_model_field",
+     "bare": "get_schema_from_model_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_get_multidict_value",
+     "bare": "_get_multidict_value",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "request_params_to_args",
+     "bare": "request_params_to_args",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_extract_form_body",
+     "bare": "_extract_form_body",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "request_body_to_args",
+     "bare": "request_body_to_args",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_body_field",
+     "bare": "get_body_field",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "_get_openapi_operation_parameters",
+     "bare": "_get_openapi_operation_parameters",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Param.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Body.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 10,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14605",
+   "repo": "fastapi/fastapi",
+   "base_commit": "6b53786f626db95a42fd0f66afd360bab161f4b1",
+   "n_new_py": 0,
+   "n_mod_py": 7,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_dependant",
+     "bare": "get_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/exceptions.py",
+     "module": "fastapi.exceptions",
+     "qualname": "ResponseValidationError.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "generate_operation_id",
+     "bare": "generate_operation_id",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Param.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/params.py",
+     "module": "fastapi.params",
+     "qualname": "Body.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Param.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/temp_pydantic_v1_params.py",
+     "module": "fastapi.temp_pydantic_v1_params",
+     "qualname": "Body.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/utils.py",
+     "module": "fastapi.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/utils.py",
+     "module": "fastapi.utils",
+     "qualname": "generate_operation_id_for_path",
+     "bare": "generate_operation_id_for_path",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 9,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_15763",
+   "repo": "fastapi/fastapi",
+   "base_commit": "9a9c4ad5d06f5fe8ee6775a5aeaa2f83c854f263",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.include_router",
+     "bare": "include_router",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14583",
+   "repo": "fastapi/fastapi",
+   "base_commit": "6513d4daa16a536d17743de6a292f49bd06388a4",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "get_dependant",
+     "bare": "get_dependant",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_15745",
+   "repo": "fastapi/fastapi",
+   "base_commit": "016ab760faba1813ba235d5582a014a58bd2f417",
+   "n_new_py": 0,
+   "n_mod_py": 4,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "docs_src/path_operation_advanced_configuration/tutorial002_py310.py",
+     "module": "docs_src.path_operation_advanced_configuration.tutorial002_py310",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "docs_src/path_operation_advanced_configuration/tutorial002_py310.py",
+     "module": "docs_src.path_operation_advanced_configuration.tutorial002_py310",
+     "qualname": "read_items",
+     "bare": "read_items",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/path_operation_advanced_configuration/tutorial002_py310.py",
+     "module": "docs_src.path_operation_advanced_configuration.tutorial002_py310",
+     "qualname": "use_route_names_as_operation_ids",
+     "bare": "use_route_names_as_operation_ids",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/applications.py",
+     "module": "fastapi.applications",
+     "qualname": "FastAPI.openapi",
+     "bare": "openapi",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "generate_operation_id",
+     "bare": "generate_operation_id",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "generate_operation_summary",
+     "bare": "generate_operation_summary",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_operation_metadata",
+     "bare": "get_openapi_operation_metadata",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi_path",
+     "bare": "get_openapi_path",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_fields_from_routes",
+     "bare": "get_fields_from_routes",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/openapi/utils.py",
+     "module": "fastapi.openapi.utils",
+     "qualname": "get_openapi",
+     "bare": "get_openapi",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute",
+     "bare": "APIRoute",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.get_route_handler",
+     "bare": "get_route_handler",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRoute.matches",
+     "bare": "matches",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter",
+     "bare": "APIRouter",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/routing.py",
+     "module": "fastapi.routing",
+     "qualname": "APIRouter.include_router",
+     "bare": "include_router",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 16,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14297",
+   "repo": "fastapi/fastapi",
+   "base_commit": "3c54a8f07b70cdd40e3d81ea319e9fcccd2481d2",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "serialize_sequence_value",
+     "bare": "serialize_sequence_value",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14303",
+   "repo": "fastapi/fastapi",
+   "base_commit": "740ec2787b25e59f7aa9e3df1db09d4489c22718",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_extract_form_body",
+     "bare": "_extract_form_body",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_13537",
+   "repo": "fastapi/fastapi",
+   "base_commit": "3b4b5ab8c819dce27fbaf0aa0a9c74b7f3255ec0",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_extract_form_body",
+     "bare": "_extract_form_body",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14953",
+   "repo": "fastapi/fastapi",
+   "base_commit": "d2c17b603d2f986d5f3800d3bf24acba8e1f485b",
+   "n_new_py": 2,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/_compat/v2.py",
+     "module": "fastapi._compat.v2",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/datastructures.py",
+     "module": "fastapi.datastructures",
+     "qualname": "UploadFile.__get_pydantic_json_schema__",
+     "bare": "__get_pydantic_json_schema__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_13786",
+   "repo": "fastapi/fastapi",
+   "base_commit": "e2354a0a063f2fcb890ec568f1a98e136a39fd25",
+   "n_new_py": 2,
+   "n_mod_py": 9,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "docs_src/security/tutorial003.py",
+     "module": "docs_src.security.tutorial003",
+     "qualname": "get_current_user",
+     "bare": "get_current_user",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/security/tutorial003_an.py",
+     "module": "docs_src.security.tutorial003_an",
+     "qualname": "get_current_user",
+     "bare": "get_current_user",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/security/tutorial003_an_py310.py",
+     "module": "docs_src.security.tutorial003_an_py310",
+     "qualname": "get_current_user",
+     "bare": "get_current_user",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/security/tutorial003_an_py39.py",
+     "module": "docs_src.security.tutorial003_an_py39",
+     "qualname": "get_current_user",
+     "bare": "get_current_user",
+     "kind": "function"
+    },
+    {
+     "file": "docs_src/security/tutorial003_py310.py",
+     "module": "docs_src.security.tutorial003_py310",
+     "qualname": "get_current_user",
+     "bare": "get_current_user",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "APIKeyBase",
+     "bare": "APIKeyBase",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "APIKeyBase.check_api_key",
+     "bare": "check_api_key",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "APIKeyQuery.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "APIKeyQuery.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "APIKeyHeader.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "APIKeyHeader.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "APIKeyCookie.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/api_key.py",
+     "module": "fastapi.security.api_key",
+     "qualname": "APIKeyCookie.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/http.py",
+     "module": "fastapi.security.http",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/security/http.py",
+     "module": "fastapi.security.http",
+     "qualname": "HTTPBase.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/http.py",
+     "module": "fastapi.security.http",
+     "qualname": "HTTPBase.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/http.py",
+     "module": "fastapi.security.http",
+     "qualname": "HTTPBasic",
+     "bare": "HTTPBasic",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/security/http.py",
+     "module": "fastapi.security.http",
+     "qualname": "HTTPBasic.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/http.py",
+     "module": "fastapi.security.http",
+     "qualname": "HTTPBearer.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/http.py",
+     "module": "fastapi.security.http",
+     "qualname": "HTTPDigest",
+     "bare": "HTTPDigest",
+     "kind": "class"
+    },
+    {
+     "file": "fastapi/security/http.py",
+     "module": "fastapi.security.http",
+     "qualname": "HTTPDigest.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/oauth2.py",
+     "module": "fastapi.security.oauth2",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/security/oauth2.py",
+     "module": "fastapi.security.oauth2",
+     "qualname": "OAuth2.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/oauth2.py",
+     "module": "fastapi.security.oauth2",
+     "qualname": "OAuth2PasswordBearer.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/oauth2.py",
+     "module": "fastapi.security.oauth2",
+     "qualname": "OAuth2AuthorizationCodeBearer.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    },
+    {
+     "file": "fastapi/security/open_id_connect_url.py",
+     "module": "fastapi.security.open_id_connect_url",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/security/open_id_connect_url.py",
+     "module": "fastapi.security.open_id_connect_url",
+     "qualname": "OpenIdConnect.__call__",
+     "bare": "__call__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 24,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_14616",
+   "repo": "fastapi/fastapi",
+   "base_commit": "54f8aeeb9a15e4d5a12401ec5549840966df0087",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_get_multidict_value",
+     "bare": "_get_multidict_value",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "fastapi_11194",
+   "repo": "fastapi/fastapi",
+   "base_commit": "a7f2dbe976bf72703376f0cd04487bfc4a849f83",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "fastapi/dependencies/utils.py",
+     "module": "fastapi.dependencies.utils",
+     "qualname": "_extract_form_body",
+     "bare": "_extract_form_body",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_6757",
+   "repo": "psf/requests",
+   "base_commit": "0e322af87745eff34caffe4df68456ebc20d9068",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/compat.py",
+     "module": "src.requests.compat",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "src/requests/utils.py",
+     "module": "src.requests.utils",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "src/requests/utils.py",
+     "module": "src.requests.utils",
+     "qualname": "super_len",
+     "bare": "super_len",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_6629",
+   "repo": "psf/requests",
+   "base_commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/exceptions.py",
+     "module": "src.requests.exceptions",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 0,
+   "module_level_only": true,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_6644",
+   "repo": "psf/requests",
+   "base_commit": "382fc2c0c6c0ef0874bc65bc1175f97c073e5086",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/adapters.py",
+     "module": "src.requests.adapters",
+     "qualname": "HTTPAdapter.request_url",
+     "bare": "request_url",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_6589",
+   "repo": "psf/requests",
+   "base_commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/utils.py",
+     "module": "src.requests.utils",
+     "qualname": "super_len",
+     "bare": "super_len",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "requests_6592",
+   "repo": "psf/requests",
+   "base_commit": "0b4d494192de489701d3a2e32acef8fb5d3f042e",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "src/requests/status_codes.py",
+     "module": "src.requests.status_codes",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 0,
+   "module_level_only": true,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3180",
+   "repo": "Textualize/rich",
+   "base_commit": "e76f3c3ea78481342e21a7b3328075462ab69c2b",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/_wrap.py",
+     "module": "rich._wrap",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/_wrap.py",
+     "module": "rich._wrap",
+     "qualname": "words",
+     "bare": "words",
+     "kind": "function"
+    },
+    {
+     "file": "rich/_wrap.py",
+     "module": "rich._wrap",
+     "qualname": "divide_line",
+     "bare": "divide_line",
+     "kind": "function"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "chop_cells",
+     "bare": "chop_cells",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3486",
+   "repo": "Textualize/rich",
+   "base_commit": "d0de442c08df8793c5ff36d9ad322ca5c47fc38c",
+   "n_new_py": 0,
+   "n_mod_py": 3,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/default_styles.py",
+     "module": "rich.default_styles",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax.stylize_range",
+     "bare": "stylize_range",
+     "kind": "function"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax._apply_stylized_ranges",
+     "bare": "_apply_stylized_ranges",
+     "kind": "function"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "Traceback.extract",
+     "bare": "extract",
+     "kind": "function"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "Traceback._render_stack",
+     "bare": "_render_stack",
+     "kind": "function"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "bar",
+     "bare": "bar",
+     "kind": "function"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "error",
+     "bare": "error",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 6,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3777",
+   "repo": "Textualize/rich",
+   "base_commit": "49117ced6648a432d85951f72dce777038f6ce09",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/diagnose.py",
+     "module": "rich.diagnose",
+     "qualname": "report",
+     "bare": "report",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3468",
+   "repo": "Textualize/rich",
+   "base_commit": "ae15db600976a7999d21653002f338d0761b180c",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.render_lines",
+     "bare": "render_lines",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.render_str",
+     "bare": "render_str",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console._check_buffer",
+     "bare": "_check_buffer",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3782",
+   "repo": "Textualize/rich",
+   "base_commit": "3b70db5a2997de191f7db3e422dbe4da35ca1c95",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax",
+     "bare": "Syntax",
+     "kind": "class"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax.guess_lexer",
+     "bare": "guess_lexer",
+     "kind": "function"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax.__rich_measure__",
+     "bare": "__rich_measure__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax._get_syntax",
+     "bare": "_get_syntax",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 6,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3772",
+   "repo": "Textualize/rich",
+   "base_commit": "2809954800af15b4027364cebf82390fe23dc194",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "Traceback.extract",
+     "bare": "extract",
+     "kind": "function"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "Traceback.extract.safe_str",
+     "bare": "safe_str",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3296",
+   "repo": "Textualize/rich",
+   "base_commit": "fde5d6eee3b0437eaecdcbf6f8b11aeab3a5d503",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/syntax.py",
+     "module": "rich.syntax",
+     "qualname": "Syntax.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3675",
+   "repo": "Textualize/rich",
+   "base_commit": "edc6b0a39b6df1c0e26d409bb5c5eda7149b2de6",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "group.decorator",
+     "bare": "decorator",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console.is_terminal",
+     "bare": "is_terminal",
+     "kind": "function"
+    },
+    {
+     "file": "rich/diagnose.py",
+     "module": "rich.diagnose",
+     "qualname": "report",
+     "bare": "report",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 4,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3676",
+   "repo": "Textualize/rich",
+   "base_commit": "2b5d648b2c62960deb6439f4204ed8fa6eb3cf7b",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/default_styles.py",
+     "module": "rich.default_styles",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "Traceback.extract.safe_str",
+     "bare": "safe_str",
+     "kind": "function"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "Traceback.extract",
+     "bare": "extract",
+     "kind": "function"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "Traceback.extract.get_locals",
+     "bare": "get_locals",
+     "kind": "function"
+    },
+    {
+     "file": "rich/traceback.py",
+     "module": "rich.traceback",
+     "qualname": "Traceback.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 4,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3518",
+   "repo": "Textualize/rich",
+   "base_commit": "5ba9cb56e68dcdf2db50c214d8f1412c8a50761b",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/table.py",
+     "module": "rich.table",
+     "qualname": "Table.add_row",
+     "bare": "add_row",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3535",
+   "repo": "Textualize/rich",
+   "base_commit": "0f2f51b872d14588de3a65968f5cdde6fb5694a3",
+   "n_new_py": 0,
+   "n_mod_py": 2,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/cells.py",
+     "module": "rich.cells",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/segment.py",
+     "module": "rich.segment",
+     "qualname": "Segment.split_cells",
+     "bare": "split_cells",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3521",
+   "repo": "Textualize/rich",
+   "base_commit": "66074922edabeac684434b4d87ee994fb97b0627",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/segment.py",
+     "module": "rich.segment",
+     "qualname": "Segment._split_cells",
+     "bare": "_split_cells",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3506",
+   "repo": "Textualize/rich",
+   "base_commit": "4101991898ee7a09fe1706daca24af5e1e054862",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/segment.py",
+     "module": "rich.segment",
+     "qualname": "Segment._split_cells",
+     "bare": "_split_cells",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3480",
+   "repo": "Textualize/rich",
+   "base_commit": "9ec419154102acce7363e3958bec6c261864d7fb",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.append",
+     "bare": "append",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.append_text",
+     "bare": "append_text",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 2,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3472",
+   "repo": "Textualize/rich",
+   "base_commit": "b6f2f7aa5b27f612f391cd28212aff51ad0d42d1",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/pretty.py",
+     "module": "rich.pretty",
+     "qualname": "traverse._traverse",
+     "bare": "_traverse",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3454",
+   "repo": "Textualize/rich",
+   "base_commit": "e1e6d745f670ff3df6b8f47377c0a4006cb74066",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/highlighter.py",
+     "module": "rich.highlighter",
+     "qualname": "ReprHighlighter",
+     "bare": "ReprHighlighter",
+     "kind": "class"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3471",
+   "repo": "Textualize/rich",
+   "base_commit": "e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.append_tokens",
+     "bare": "append_tokens",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3470",
+   "repo": "Textualize/rich",
+   "base_commit": "0ba607dc080c9f102b5ae5346bcdb70d6e9c969d",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/console.py",
+     "module": "rich.console",
+     "qualname": "Console._write_buffer",
+     "bare": "_write_buffer",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3469",
+   "repo": "Textualize/rich",
+   "base_commit": "c478588f3c228a4e86741a057c42b452d7bc6bce",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "Markdown.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3052",
+   "repo": "Textualize/rich",
+   "base_commit": "7a168a27c5097805b3bafa495f35e3955004ff4a",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/prompt.py",
+     "module": "rich.prompt",
+     "qualname": "PromptBase",
+     "bare": "PromptBase",
+     "kind": "class"
+    },
+    {
+     "file": "rich/prompt.py",
+     "module": "rich.prompt",
+     "qualname": "PromptBase.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/prompt.py",
+     "module": "rich.prompt",
+     "qualname": "PromptBase.ask",
+     "bare": "ask",
+     "kind": "function"
+    },
+    {
+     "file": "rich/prompt.py",
+     "module": "rich.prompt",
+     "qualname": "PromptBase.check_choice",
+     "bare": "check_choice",
+     "kind": "function"
+    },
+    {
+     "file": "rich/prompt.py",
+     "module": "rich.prompt",
+     "qualname": "PromptBase.process_response",
+     "bare": "process_response",
+     "kind": "function"
+    },
+    {
+     "file": "rich/prompt.py",
+     "module": "rich.prompt",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 5,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3278",
+   "repo": "Textualize/rich",
+   "base_commit": "4c5d305bb902ce97011666ada19e48d0b27b49e1",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/ansi.py",
+     "module": "rich.ansi",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 0,
+   "module_level_only": true,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_2943",
+   "repo": "Textualize/rich",
+   "base_commit": "610fd75c433c3dfcd9c296e8b91363979127b9fa",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/style.py",
+     "module": "rich.style",
+     "qualname": "Style.clear_meta_and_links",
+     "bare": "clear_meta_and_links",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_2725",
+   "repo": "Textualize/rich",
+   "base_commit": "577def22dd83b999c5937cb2bf2ed49600943325",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/table.py",
+     "module": "rich.table",
+     "qualname": "Table._render",
+     "bare": "_render",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3105",
+   "repo": "Textualize/rich",
+   "base_commit": "9f620dc50c0008c35e9f8493f198e6e593574a70",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/_export_format.py",
+     "module": "rich._export_format",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 0,
+   "module_level_only": true,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3130",
+   "repo": "Textualize/rich",
+   "base_commit": "720800e6930d85ad027b1e9bd0cbb96b5e994ce3",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "TableDataElement.create",
+     "bare": "create",
+     "kind": "function"
+    },
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "TableDataElement.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "TableDataElement.on_text",
+     "bare": "on_text",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 3,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3043",
+   "repo": "Textualize/rich",
+   "base_commit": "8a616de8e25db3c93abaaa220c493d80878de69d",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/_export_format.py",
+     "module": "rich._export_format",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 0,
+   "module_level_only": true,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3067",
+   "repo": "Textualize/rich",
+   "base_commit": "1ad6f73a4d1d3b40ac3f879feccfaad66412bd1d",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/highlighter.py",
+     "module": "rich.highlighter",
+     "qualname": "ReprHighlighter",
+     "bare": "ReprHighlighter",
+     "kind": "class"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3006",
+   "repo": "Textualize/rich",
+   "base_commit": "0c8bb032ad3b54a32fdb8a43f5ab457c8cd6dcb1",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/repr.py",
+     "module": "rich.repr",
+     "qualname": "auto.do_replace.auto_rich_repr",
+     "bare": "auto_rich_repr",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3064",
+   "repo": "Textualize/rich",
+   "base_commit": "01b85ac116c4635b6ddb8b488be8254be6df2a84",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/markdown.py",
+     "module": "rich.markdown",
+     "qualname": "TableElement.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3063",
+   "repo": "Textualize/rich",
+   "base_commit": "368e8ad77c95a6bef8f9d332039091d1417296bc",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/markup.py",
+     "module": "rich.markup",
+     "qualname": "escape",
+     "bare": "escape",
+     "kind": "function"
+    },
+    {
+     "file": "rich/markup.py",
+     "module": "rich.markup",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    }
+   ],
+   "n_gold_syms": 1,
+   "module_level_only": false,
+   "adds_only": false
+  },
+  {
+   "instance_id": "rich_3061",
+   "repo": "Textualize/rich",
+   "base_commit": "aca9467ec6a482b3bed1ba7d2e3de72271c5f817",
+   "n_new_py": 0,
+   "n_mod_py": 1,
+   "n_non_py": 0,
+   "gold_symbols": [
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "<module>",
+     "bare": "<module>",
+     "kind": "module"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text",
+     "bare": "Text",
+     "kind": "class"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.__init__",
+     "bare": "__init__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.from_ansi",
+     "bare": "from_ansi",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.assemble",
+     "bare": "assemble",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.highlight_regex",
+     "bare": "highlight_regex",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.__rich_console__",
+     "bare": "__rich_console__",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.expand_tabs",
+     "bare": "expand_tabs",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.append",
+     "bare": "append",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.append_text",
+     "bare": "append_text",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.append_tokens",
+     "bare": "append_tokens",
+     "kind": "function"
+    },
+    {
+     "file": "rich/text.py",
+     "module": "rich.text",
+     "qualname": "Text.divide",
+     "bare": "divide",
+     "kind": "function"
+    }
+   ],
+   "n_gold_syms": 11,
+   "module_level_only": false,
+   "adds_only": false
+  }
+ ]
+}
